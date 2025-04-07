@@ -1,0 +1,4 @@
+# .htaccess
+RewriteEngine On
+RewriteRule ^register\.php$ index.php?page=register [L,QSA]
+RewriteRule ^login\.php$ index.php?page=login [L,QSA]
